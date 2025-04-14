@@ -1,0 +1,7 @@
+{
+    "baseUrl": "https://qauto2.forstudy.space/",
+    "env": {
+        "defaultUserEmail": "monica.geller@friends.com",
+        "defaultUserPassword": "CleanFreak2025"
+    }
+}
