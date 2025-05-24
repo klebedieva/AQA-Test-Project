@@ -1,8 +1,9 @@
 name: Test Cypress in Docker
 
-on: push
-
-# trigger rebuild
+on:
+  push:
+    branches:
+      - Lesson31 
 
 jobs:
   cypress-run:
