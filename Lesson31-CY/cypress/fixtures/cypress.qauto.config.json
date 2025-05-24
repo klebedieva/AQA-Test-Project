@@ -1,0 +1,7 @@
+{
+    "baseUrl": "https://qauto.forstudy.space/",
+    "env": {
+        "defaultUserEmail": "rachel.green@friends.com",
+        "defaultUserPassword": "RossandRachel1"    
+    }
+}
