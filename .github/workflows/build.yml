@@ -3,7 +3,7 @@ name: Test Cypress in Docker
 on:
   push:
     branches:
-      - Lesson31
+      - Lesson31-CY
 
 jobs:
   cypress-run:
@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Install dependencies
-        working-directory: Lesson31-SY
+        working-directory: Lesson31-CY
         run: npm ci
 
       - name: Run Cypress with env
