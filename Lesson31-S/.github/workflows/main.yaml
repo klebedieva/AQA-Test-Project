@@ -2,6 +2,8 @@ name: Test Cypress in Docker
 
 on: push
 
+# trigger rebuild
+
 jobs:
   cypress-run:
     runs-on: ubuntu-22.04
