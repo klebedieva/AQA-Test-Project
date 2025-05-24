@@ -20,4 +20,5 @@ jobs:
         run: npm ci
 
       - name: Run Cypress with env
+        working-directory: Lesson31-CY
         run: npx cypress run --env TEST_ENV=qauto
