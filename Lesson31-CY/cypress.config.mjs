@@ -8,14 +8,6 @@ const getConfigFile = (env) => {
 }
 
 export default defineConfig({
-  reporter: 'mochawesome',
-  reporterOptions: {
-    reportFilename: '[status]_[datetime]-[name]-report',
-    overwrite: false,
-    html: true,
-    json: true,
-    reportDir: 'mochawesome-report',
-  },
   e2e: {
     setupNodeEvents(on, config) {
       on('task', {
